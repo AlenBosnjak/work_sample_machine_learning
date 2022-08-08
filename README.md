@@ -1,5 +1,5 @@
 # Overview
-In this project an approach for the prediction of football matches is developed. For this purpose, three data sets are created and their impact on the accuracy of the predictions is considered. An artificial neural network is developed for each data set. Both the hyperparameter optimization and the training of the networks take place under the same conditions. The Project was divided into three parts which will be described in the following.
+In this project an approach for the prediction of football matches is developed. For this purpose, three data sets were created and their impact on the accuracy of the predictions is considered. An artificial neural network is developed for each data set. Both the hyperparameter optimization and the training of the networks take place under the same conditions. The Project was divided into three parts which will be described in the following.
 
 :warning:  (warning)  
 This project was developed under great time pressure. A total of nine weeks were available for the bachelor thesis. Therefore, the full nine weeks could not be used for programming. The code needs refactoring before further use for example there are duplicates in the code but also the structure needs to be modified.  
@@ -23,6 +23,6 @@ Used Features were:
   * Forward
   
 # 3.Train the neural network
-After creating the three datasets the Models were trained and reached the best model(no_players.ipynb) reached an accuracy of 53% on the validation set. The goal was the classification of a match into one of the three classes "Heim", "Auswärts" and "Remis" which translate to "home", "away", "draw".
+After creating the three datasets the Models were trained and the best model(no_players.ipynb) reached an accuracy of 53% on the validation set. The goal was the classification of a match into one of the three classes "Heim", "Auswärts" and "Remis" which translate to "home", "away", "draw".
 
 The validation and building of the neural networks can be found under :arrow_right: **tensorflow**
